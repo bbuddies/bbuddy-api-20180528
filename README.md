@@ -14,6 +14,7 @@ Use git to clone this project into a folder. Then in this folder, run the comman
 * Create a default mysql dba user `mysql -u root -p < sql/create_default_dba.sql`
 * Init environment `gem install bundler; bundle install; rake db:create; rails db:migrate`
 * Start Web Application `rails s` (on port 3000)
+* Create a default user for client login `rails db:seed`. The user name is admin@bbuddy.com and password is 123456
 
 # Tips for Mac installation
 Here are some tips for Mac installations.
